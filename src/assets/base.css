@@ -1,7 +1,60 @@
 @import '~antd/dist/antd.css';
-
 body {
   font-size: 14px;
   color: #333;
   font-family: '微软雅黑';
+  background-color: #f0f2f5;
+}
+#app {
+  height: 100vh;
+}
+header {
+  height: 70px;
+  background-color: #fff;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .right {
+  height: 40px;
+}
+header .right .avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+header .right .control {
+  display: block;
+  height: 50px;
+  color: black;
+}
+header .right .control:hover {
+  color: #1890ff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 200px 0px 250px;
+}
+.container .aside {
+  height: calc(100vh);
+}
+.container .container_box {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 0px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.container .container_box .container_content {
+  height: calc(100vh);
+  overflow: hidden;
+}
+footer {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: #001529;
+  color: #fff;
 }

@@ -1,0 +1,9 @@
+.ant-menu-item-selected {
+  background-color: rgb(70, 84, 254) !important;
+  color: white !important;
+}
+
+/* .ant-menu-item-active {
+  background-color: #fff !important;
+  color: #666666 !important;
+} */

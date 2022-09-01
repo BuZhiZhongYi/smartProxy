@@ -1,0 +1,106 @@
+.list_table {
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+  overflow-y: scroll;
+}
+.list_table .linkk {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #333;
+}
+.list_table .productcontainer {
+  margin: 20px 0px 0 0px;
+}
+.list_table .productcontainer .checkbox {
+  margin: 30px 15px 20px 15px;
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+}
+.list_table .productcontainer .cardcontainer {
+  margin: 20px 15px 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.list_table .productcontainer .cardcontainer .imgcss {
+  font-size: 10px;
+  color: #999999;
+}
+.list_table .sp {
+  position: relative;
+  color: #666666;
+  top: -50px;
+  left: 20px;
+}
+.list_table .InputContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.list_table .img_container {
+  display: flex;
+  justify-content: space-between;
+}
+.list_table .img_container .cardcontent {
+  display: flex;
+}
+.list_table .img_container .imgg {
+  width: 430px;
+}
+.list_table .img_container .imgg1 {
+  width: 220px;
+}
+.list_table .img_container2 .imgg {
+  width: 470px;
+}
+.list_table .img_container2 .imgg2 {
+  margin-left: 10px;
+}
+.list_table .img_container3 {
+  display: flex;
+  justify-content: space-between;
+}
+.list_table .img_container3 .cardcontent {
+  display: flex;
+}
+.list_table .img_container3 .imgg {
+  width: 515px;
+}
+.list_table .DataBox {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  box-shadow: 0px 0px 7px #c9c6c6;
+}
+.list_table .DataBox .nodata {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.list_table .table_title {
+  color: #333;
+}
+.list_table .table_title:hover {
+  color: #1890ff;
+}
+th.columns {
+  background-color: #edf2fe !important;
+  width: 200px !important;
+}
+td:nth-child(1) .columns {
+  background-color: #edf2fe !important;
+}
+.roww {
+  background-color: #f3f3f3;
+}
