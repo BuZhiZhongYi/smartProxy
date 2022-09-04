@@ -1,0 +1,47 @@
+.purchase{
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.mainpurchase{
+    display: flex;
+    background: url(/src/assets/purchase_bg.png) center center/cover no-repeat,linear-gradient(90deg, #428BFF, #3E30FF);
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titlearea{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 6rem auto 0 auto;
+    font-size: 2.1rem;
+}
+.titlearea .banner_sub{
+    font-size: 1.5rem;
+    color: rgb(244, 235, 235);
+}
+.buttonarea{
+    display: flex;
+    width: 70%;
+    margin: 4rem auto ;
+}
+.buttonarea button{
+    margin-right: 0.7rem;
+}
+
+.maincontent{
+    display: flex;
+    background-color: rgb(246, 248, 251);
+    flex-direction: column;
+    width: 100%;
+}
+.menu_area{
+    display: flex;
+    width: 70%;
+    margin: 0 auto ;
+    background-color: #fff;
+}

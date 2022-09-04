@@ -1,0 +1,44 @@
+.help{
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.mainhelp{
+    display: flex;
+    background: url(/src/assets/help_banner.png) center center/cover no-repeat,linear-gradient(90deg, #428BFF, #3E30FF);
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titlearea{
+    width: 70%;
+    margin: 6rem auto 0 auto;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.banner_title{
+    margin:0 auto 2rem 6rem;
+}
+
+.searcharea{
+    width: 70%;
+    margin:0 auto;
+}
+.search{
+    width: 460px;
+    background-color: #fff;
+    margin:0 auto 0.8rem 6rem;
+}
+.search input{
+    width: 371px;
+    height: 41px;
+    border-style: none;
+    outline: none;
+}
+.search img{
+    margin: 0 13px;
+}
+

@@ -1,0 +1,42 @@
+.program{
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.mainprogram{
+    display: flex;
+    background: url(/src/assets/top_bg1.png) center center/cover no-repeat,linear-gradient(90deg, #428BFF, #3E30FF);
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titlearea{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 6rem auto 0 auto;
+    font-size: 2rem;
+}
+.titlearea .banner_sub{
+    color: rgb(244, 235, 235);
+    margin-top: 1rem;
+    font-size: 0.5rem;
+}
+.buttonarea{
+    display: flex;
+    width: 70%;
+    margin: 4rem auto ;
+}
+.buttonarea button{
+    margin-right: 0.7rem;
+}
+
+.maincontent{
+    display: flex;
+    background-color: rgb(246, 248, 251);
+    flex-direction: column;
+    width: 100%;
+}

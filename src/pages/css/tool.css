@@ -1,0 +1,93 @@
+.tool{
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.maintool{
+    display: flex;
+    background: url(/src/assets/tool_bg.png) center center/cover no-repeat,linear-gradient(90deg, #428BFF, #3E30FF);
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titlearea{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 6rem auto 0 auto;
+    font-size: 2.1rem;
+}
+.titlearea .banner_sub{
+    font-size: 1.5rem;
+    color: rgb(244, 235, 235);
+}
+.buttonarea{
+    display: flex;
+    width: 70%;
+    margin: 4rem auto ;
+}
+.buttonarea button{
+    margin-right: 0.7rem;
+}
+
+.maincontent{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    width: 100%;
+}
+.contextarea{
+    display: block;
+    width: 70%;
+    margin: 0 auto ;
+
+}
+.contextarea .title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 3rem;
+}
+.contextarea .tip_info{
+    font-size: 0.8rem;
+    color: rgb(239, 51, 51);
+    font-weight: normal;
+    margin: 1rem 0;
+    padding-bottom:1rem ;
+    border-bottom: 1px solid #ccc;
+}
+
+.languagearea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto ;
+}
+.languagearea .title18{
+    display: flex;
+    font-size: 1rem;
+    color: black;
+}
+.languages{
+    width: 100%;
+}
+.languages button{
+    margin-right: 0.7rem;
+}
+
+.formarea{
+    display: flex;
+    width: 100%;
+    margin: 0 auto ;
+    flex-wrap: wrap;
+}
+.formarea .form_item{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
