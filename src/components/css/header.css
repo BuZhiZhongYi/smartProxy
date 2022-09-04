@@ -1,0 +1,100 @@
+.header{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.mainheader{
+    width: 70%;
+    height: 60.75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 160px;
+}
+.navarea{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 100%;
+}
+
+.purchaseselect{
+    position: absolute;
+    left: 80px;
+    top: 60px;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.purchaseselect a{
+    color: rgb(167, 167, 167);
+    font-size: 0.7rem;
+}
+.nav_buy:hover +.purchaseselect{
+    opacity: 1;
+}
+
+.programselect{
+    position: absolute;
+    left: 180px;
+    top: 60px;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.programselect a{
+    color: rgb(167, 167, 167);
+    font-size: 0.7rem;
+}
+.nav_resolve:hover +.programselect{
+    opacity: 1;
+}
+
+.toolselect{
+    position: absolute;
+    left: 270px;
+    top: 60px;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toolselect a{
+    color: rgb(167, 167, 167);
+    font-size: 0.7rem;
+}
+.nav_tool:hover +.toolselect{
+    opacity: 1;
+}
+
+a {
+    color: black;
+}
+.nav img {
+    margin: -6px 5px 0 5px;
+}

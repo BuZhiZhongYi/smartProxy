@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    background-color: rgb(21, 32, 71);
+    color: rgb(255, 255, 255);
+}
+.mainfooter{
+    width: 70%;
+    margin: auto;
+}
+.mainleft{
+    width: 40%;
+    margin: 80px 40px;
+}
+.introduce{
+    font-size: 8px;
+    margin-top: 20px;
+}
+.tel{
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.mainright{
+    width: 60%;
+    margin: 80px 40px;
+}
+.link span{
+    display: inline-block; 
+    margin: 10px 15px 10px 0px;
+}
+.link a{
+    display: inline-block;
+    margin-left: 10px;
+}
+hr{
+    size: 1rem;
+}
+.footerbottom{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
